@@ -110,10 +110,10 @@ DOWNLOAD_HANDLERS = {
    # Pour ne pas charger les images inutilement
 PLAYWRIGHT_BROWSER_TYPE = "chromium"
 PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": True}
-
-ITEM_PIPELINES = {
-   "ia_scraper.pipelines.SaveToSupabasePipeline": 300,
-}
+#
+# ITEM_PIPELINES = {
+#    "ia_scraper.pipelines.SaveToSupabasePipeline": 300,
+# }
 
 DEFAULT_REQUEST_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
