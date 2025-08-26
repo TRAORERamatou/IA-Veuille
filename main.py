@@ -6,7 +6,7 @@ from scrapy.utils.project import get_project_settings
 
 sys.path.insert(0, os.path.abspath("."))
 
-# Importer le  spider
+
 from ia_scraper.ia_scraper.spiders.articles import SmartAISpider
 
 def run():
